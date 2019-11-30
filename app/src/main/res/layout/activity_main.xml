@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_background"
+    tools:context="com.android.paris8.sudoku.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#424242">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textColor="#C8C8C8"
+            android:text="Sudoku"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Continuer"
+        android:layout_marginTop="90dp"/>
+
+    <Button
+        android:id="@+id/btn_facile"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Facile"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_moyen"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Moyen"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_difficile"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Difficile"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_score"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Scores"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
